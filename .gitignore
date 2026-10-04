@@ -1,4 +1,17 @@
-data/
-models/
-.ipynb_checkpoints/
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets
+data/
+datasets/
+DS3010_Data/
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Results
+results/
